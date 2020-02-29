@@ -1,0 +1,24 @@
+[
+    {
+        "productos": [
+            [
+                "Paella marinera",
+                "Vino blacndo"
+            ]
+        ],
+        "fecha": "29/02/2020",
+        "direccion": "C. Consell de cent, 380",
+        "precio": "40€",
+        "id": 0
+    },
+    {
+        "productos": [
+            "Arroz Negro",
+            "Vino blacndo"
+        ],
+        "fecha": "29/02/2020",
+        "direccion": "pasj. Utset, 7",
+        "precio": "48€",
+        "id": 1
+    }
+]
