@@ -57,23 +57,29 @@ La API contiene 7 paths distintos que se corresponden a las distintas operacione
 
 {
 
+
 	
 "productos": ["Sopa", "vino"], 
 "fecha": "28/02/2020", 
 "direccion": "C. ejemplo, 328", 
 "precio": "30€"
 	
-	
+
+
 }
 
 + Una llamada PUT al path /editarPedido.  Permite editar un pedido registrado previamente en la base de datos.  El body para esta petición debe enviarse igual que las anteriores llamadas en formato JSON y de la manera siguiente: 
 
 {
+
+
 "productos": ["Arroz Negro", "Vino blanco"], 
 "fecha": "29/02/2020", 
 "direccion": "C. ejemplo, 7", 
 "precio": "60€",
 "id": 2
+
+
 }
 
 + Una llamada DELETE al path /eliminarPedido/:indice  Permitirá borrar un pedido que previamente haya sido registrado en la base datos, lo unico que debe hacerse es sustituir la palabara "indice" del path por el numero correspondiente al id de dicho pedido. 
